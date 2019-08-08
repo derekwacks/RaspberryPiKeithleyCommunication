@@ -9,7 +9,7 @@
 
 You can even run your Keithley control lines one-by-one _as_ the payload 
  
-I know what you're thinking. Why'd we board a plane to travel to the corner deli? For lack of a better excuse, because I felt like it and sometimes I prefer the coffee & pancakes in JB's Terminal 5 over my local delicatessen. 
+I know what you're thinking. Why'd we board a plane to travel to the corner deli? For lack of a better excuse, because I felt like it and sometimes I prefer the coffee & pancakes in JB's Terminal 5 over my local delicatessen anyways. 
 
 
 Notes:
@@ -34,3 +34,7 @@ inst.write(“:SYSt:BEEP 100, 3“)
 inst.close()
 
 ```
+
+### Credits:
+Thanks to JP Mens for a swanky mqtt-launcher https://github.com/jpmens/mqtt-launcher
+And Eclipse for an MQTT broker https://github.com/eclipse/mosquitto
