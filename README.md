@@ -4,10 +4,8 @@
 * Host an MQTT server, using a Raspberry Pi as a topic broker
 * Load a .py control script on the Rpi
 * Start the Rpi as a subscriber to an MQTT topic of your choice
-* edit the MQTT launcher conf file, connecting a message/topic pair to the respective command (for example, connecting `user/bin/python` & `~/home/Documents/myKeithleyControl.py` to your friendly neighborhood `test/message` topic thread)
-* Run the Keithley control script remotely by publishing an appropriate message payload on the MQTT topic 
-
-I connected the Rpi to the Keithley using a USB-RS232 UART adapter
+* edit the MQTT launcher conf file, connecting a message/topic pair to the respective command (for example, connecting `user/bin/python` & `~/home/Documents/myKeithleyControl.py` to your friendly neighborhood `test/message` topic thread with the trigger name `myControl`)
+* Run the Keithley control script remotely by publishing an appropriate message payload on the MQTT topic, and having the Keithley connected to the Rpi using a USB-RS232 UART adapter
 
 You can even run your Keithley control lines one-by-one _as_ the payload 
  
@@ -17,7 +15,7 @@ I know what you're thinking. Why'd we board a plane to travel to the corner deli
 #### Notes:
 To publish to the mosquitto server: 
 
-`mosquitto_pub -h raspberrypi_or_IP -t "test/message" -m "name_set_in_mqtt_conf_file"`
+`mosquitto_pub -h raspberrypi_or_IP -t "test/message" -m "myControl"`
 
 Subscribe remotely:
 
