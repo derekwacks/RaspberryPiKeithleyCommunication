@@ -5,7 +5,7 @@
 * Load a .py control script on the Rpi
 * Start the Rpi as a subscriber to an MQTT topic of your choice
 * edit the MQTT launcher conf file, connecting a message/topic pair to the respective a command (for example: `user/bin/python` & `~/home/Documents/myKeithleyControl.py`)
-* Run the Keithley control script remotely by publishing an appropriate payload & message on the MQTT topic 
+* Run the Keithley control script remotely by publishing an appropriate message payload on the MQTT topic 
 
 You can even run your Keithley control lines one-by-one _as_ the payload 
  
