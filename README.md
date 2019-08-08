@@ -17,9 +17,9 @@ To publish to the mosquitto server:
 
 `mosquitto_pub -h raspberrypi_or_IP -t "test/message" -m "name_set_in_mqtt_conf_file"`
 
-
 Subscribe remotely:
-`mosquitto_sub -h myIP  -t "test/message"` (https://appcodelabs.com/introduction-to-iot-build-an-mqtt-server-using-raspberry-pi)
+`mosquitto_sub -h myIP  -t "test/message"` 
+(https://appcodelabs.com/introduction-to-iot-build-an-mqtt-server-using-raspberry-pi)
 
 
 ### Example script: 
@@ -29,12 +29,11 @@ Gets the Keithley to beep as a test
 import visa 
 import time 
 rm = visa.ResourceManager('@py') 
-address = "ASRL/dev/ttyUSB0::INSTR"
+address = "ASRL/dev/ttyUSB0::INSTR" # Ensure this is the correct path
 inst = rm.open_resource(address) 
 inst.write("*RST") print(inst.query("*IDN?")) 
-inst.write("FORM:DATA ASCII") 
+inst.write("FORM:DATA ASCII") # This is crucial, otherwise your commands are gibberish 
 inst.write(“:SYSt:BEEP 100, 3“)
- 
 inst.close()
 
 ```
