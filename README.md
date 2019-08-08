@@ -43,7 +43,8 @@ inst.close()
 
 ```
 Add this to the launcher.conf file
-```"test/message"      :   {'example_payload'            :   ["usr/bin/python", 'home/pi/Documents/myControl.py'] }
+```
+"test/message"      :   {'example_payload'            :   ["usr/bin/python", 'home/pi/Documents/myControl.py'] }
 ```
 
 ### Credits:
