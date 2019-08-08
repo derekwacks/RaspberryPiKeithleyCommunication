@@ -17,7 +17,6 @@ To publish to the mosquitto server:
 
 `mosquitto_pub -h raspberrypi_or_IP -t "test/message" -m "name_set_in_mqtt_conf_file"`
 
-`mosquitto_pub -h 160.39.198.70 -t "test/message" -m "import visa import time rm = visa.ResourceManager('@py') address = "ASRL/dev/ttyUSB0::INSTR" inst = rm.open_resource(address) inst.write("*RST") print(inst.query("*IDN?")) inst.write("FORM:DATA ASCII") “ `
 
 Subscribe remotely:
 `mosquitto_sub -h myIP  -t "test/message"` (https://appcodelabs.com/introduction-to-iot-build-an-mqtt-server-using-raspberry-pi)
