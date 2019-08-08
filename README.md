@@ -11,11 +11,11 @@ You can even run your Keithley control lines one-by-one _as_ the payload
  
 I know what you're thinking. Why board a plane to travel to the corner deli? For lack of a better excuse, because I felt like it and sometimes I prefer the coffee & pancakes in Jet Blue's T5 over my local delicatessen anyways. 
 #### The nitty-gritty (notes)
-install the mosquitto MQTT broker with `sudo apt install mosquitto mosquitto-clients`
+* install the mosquitto MQTT broker with `sudo apt install mosquitto mosquitto-clients`
 
-enable with `sudo systemctl enable mosquitto`
+* enable with `sudo systemctl enable mosquitto`
 
-install the MQTT client (on your other machine) with `sudo apt install mosquitto-clients`
+* install the MQTT client (on your other machine) with `sudo apt install mosquitto-clients`
 
 To publish to the mosquitto server: 
 
