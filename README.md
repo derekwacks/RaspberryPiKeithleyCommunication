@@ -12,12 +12,13 @@ You can even run your Keithley control lines one-by-one _as_ the payload
 I know what you're thinking. Why'd we board a plane to travel to the corner deli? For lack of a better excuse, because I felt like it and sometimes I prefer the coffee & pancakes in JB's Terminal 5 over my local delicatessen anyways. 
 
 
-Notes:
+#### Notes:
 To publish to the mosquitto server: 
 
 `mosquitto_pub -h raspberrypi_or_IP -t "test/message" -m "name_set_in_mqtt_conf_file"`
 
 Subscribe remotely:
+
 `mosquitto_sub -h myIP  -t "test/message"` 
 (https://appcodelabs.com/introduction-to-iot-build-an-mqtt-server-using-raspberry-pi)
 
