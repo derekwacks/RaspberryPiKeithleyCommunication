@@ -9,7 +9,7 @@
 
 You can even run your Keithley control lines one-by-one _as_ the payload 
  
-I know what you're thinking. _Why board a plane to travel to the corner deli?_ For lack of a better excuse, because I felt like it and sometimes I prefer the coffee & pancakes in Jet Blue's T5 over my local delicatessen anyways. WebREPL works just fine aswell, and there's a slick way to set up nodeforwader (https://github.com/dansteingart/nodeforwarder) with a serial connection and house all the on-goings on your own machine. Maybe that's what I set out to do in the first place, or maybe a state trooper caught me doing 86 in a 65 last weekend after I slowed down from not-a-small-amount faster, or maybe both. 
+I know what you're thinking. _Why board a plane to travel to the corner deli?_ For lack of a better excuse, because I felt like it and sometimes I prefer the coffee & pancakes in Jet Blue's T5 over my local delicatessen anyways. WebREPL works just fine aswell, and there's a slick way to set up nodeforwader (https://github.com/dansteingart/nodeforwarder) with a serial connection and house all the on-goings on your own machine. Maybe that's what I set out to do in the first place, or maybe a state trooper caught me doing 86 in a 65 last weekend after I slowed down from more-than-a-few-mph-faster, or maybe both. Who's to say.
 
 
 #### The nitty-gritty (notes)
