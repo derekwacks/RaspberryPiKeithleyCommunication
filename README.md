@@ -1,4 +1,4 @@
-# Raspberry Pi & Keithley Communication using an MQTT server
+# Raspberry Pi & Keithley 2401 Sourcemeter Communication using an MQTT server
 
 ## Overall Scheme: 
 * Host an MQTT server, using a Raspberry Pi as a topic broker
@@ -6,6 +6,8 @@
 * Start the Rpi as a subscriber to an MQTT topic of your choice
 * edit the MQTT launcher conf file, connecting a message/topic pair to the respective command (for example: `user/bin/python` & `~/home/Documents/myKeithleyControl.py`)
 * Run the Keithley control script remotely by publishing an appropriate message payload on the MQTT topic 
+
+I connected the Rpi to the Keithley using a USB-RS232 UART adapter
 
 You can even run your Keithley control lines one-by-one _as_ the payload 
  
