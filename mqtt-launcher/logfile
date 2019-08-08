@@ -1,0 +1,198 @@
+2019-07-16 15:13:51,887 Starting
+2019-07-16 15:13:51,889 DEBUG MODE
+2019-07-16 15:13:51,895 Connected to MQTT broker, subscribing to topics...
+2019-07-16 15:14:15,741 test/message 0 keith1
+2019-07-16 15:14:15,743 Running t=test/message: ['/home/pi/Documents', 'python3', 'keith1.py']
+2019-07-16 15:14:39,507 test/message 0 keith1
+2019-07-16 15:14:39,508 Running t=test/message: ['/home/pi/Documents', 'python3', 'keith1.py']
+2019-07-16 15:14:49,436 test/message 0 Hello
+2019-07-16 15:14:49,437 No matching param (Hello) for test/message
+2019-07-16 15:14:55,022 test/message 0 keith1
+2019-07-16 15:14:55,023 Running t=test/message: ['/home/pi/Documents', 'python3', 'keith1.py']
+2019-07-16 15:20:50,395 Starting
+2019-07-16 15:20:50,395 DEBUG MODE
+2019-07-16 15:20:50,403 Connected to MQTT broker, subscribing to topics...
+2019-07-16 15:21:02,459 test/message 0 keith1
+2019-07-16 15:21:02,461 No matching param (keith1) for test/message
+2019-07-16 15:22:27,640 Starting
+2019-07-16 15:22:27,641 DEBUG MODE
+2019-07-16 15:22:27,647 Connected to MQTT broker, subscribing to topics...
+2019-07-16 15:22:36,250 test/message 0 keith2
+2019-07-16 15:22:36,252 Running t=test/message: ['/home/pi/Documents', 'python', 'keith1.py']
+2019-07-16 15:22:59,401 test/message 0 keith2
+2019-07-16 15:22:59,402 Running t=test/message: ['/home/pi/Documents', 'python', 'keith1.py']
+2019-07-16 15:29:02,812 Starting
+2019-07-16 15:29:02,812 DEBUG MODE
+2019-07-16 15:29:02,819 Connected to MQTT broker, subscribing to topics...
+2019-07-16 15:29:19,605 test/message 0 keith1
+2019-07-16 15:29:19,607 No matching param (keith1) for test/message
+2019-07-16 15:29:58,179 test/message 0 keith1
+2019-07-16 15:29:58,180 No matching param (keith1) for test/message
+2019-07-16 15:31:34,625 Starting
+2019-07-16 15:31:34,626 DEBUG MODE
+2019-07-16 15:31:34,633 Connected to MQTT broker, subscribing to topics...
+2019-07-16 15:31:41,962 test/message 0 keith3
+2019-07-16 15:31:41,965 No matching param (keith3) for test/message
+2019-07-16 15:35:16,435 Starting
+2019-07-16 15:35:16,436 DEBUG MODE
+2019-07-16 15:35:16,442 Connected to MQTT broker, subscribing to topics...
+2019-07-16 15:35:24,932 test/message 0 Hello
+2019-07-16 15:35:24,935 No matching param (Hello) for test/message
+2019-sdf07-16 15:35:53,076 test/message 0 shouldntwork
+2019-07-16 15:35:53,077 No matching param (shouldntwork) for test/message
+2019-07-16 15:37:29,714 Starting
+2019-07-16 15:37:29,715 DEBUG MODE
+2019-07-16 15:37:29,721 Connected to MQTT broker, subscribing to topics...
+2019-07-16 15:37:34,583 test/message 0 keith2
+2019-07-16 15:37:34,585 Running t=test/message: ['/home/pi/Documents', 'python', 'keith1.py']
+2019-07-16 15:37:35,903 test/message 0 keith2
+2019-07-16 15:37:35,904 Running t=test/message: ['/home/pi/Documents', 'python', 'keith1.py']
+2019-07-16 15:38:56,191 Starting
+2019-07-16 15:38:56,192 DEBUG MODE
+2019-07-16 15:38:56,198 Connected to MQTT broker, subscribing to topics...
+2019-07-16 15:39:01,472 test/message 0 keith3
+2019-07-16 15:39:01,475 No matching param (keith3) for test/message
+2019-07-16 15:39:20,167 test/message 0 keith2
+2019-07-16 15:39:20,168 Running t=test/message: ['/home/pi/Documents', 'python', 'keith1.py']
+2019-07-16 15:44:22,368 test/message 0 keith1
+2019-07-16 15:44:22,370 No matching param (keith1) for test/message
+2019-07-16 15:44:52,848 test/message 0 keith2
+2019-07-16 15:44:52,849 Running t=test/message: ['/home/pi/Documents', 'python', 'keith1.py']
+2019-07-16 15:47:13,856 test/message 0 keith2
+2019-07-16 15:47:13,857 Running t=test/message: ['/home/pi/Documents', 'python', 'keith1.py']
+2019-07-16 15:52:16,422 Starting
+2019-07-16 15:52:16,431 DEBUG MODE
+2019-07-16 15:52:16,437 Connected to MQTT broker, subscribing to topics...
+2019-07-16 15:52:25,239 test/message 0 keith2
+2019-07-16 15:52:25,241 Running t=test/message: ['/home/pi/Documents', 'python', 'keith1.py']
+2019-07-16 16:18:11,019 Starting
+2019-07-16 16:18:11,019 DEBUG MODE
+2019-07-16 16:18:11,025 Connected to MQTT broker, subscribing to topics...
+2019-07-16 16:18:26,937 test/message 0 keith2
+2019-07-16 16:18:26,940 Running t=test/message: ['/home/pi/Documents', 'python', 'keith1.py']
+2019-07-16 16:22:30,916 test/message 0 1
+2019-07-16 16:22:30,917 No matching param (1) for test/message
+2019-07-16 16:22:36,869 test/message 0 0
+2019-07-16 16:22:36,870 No matching param (0) for test/message
+2019-07-16 16:22:47,277 test/message 0 keith2
+2019-07-16 16:22:47,279 Running t=test/message: ['/home/pi/Documents', 'python', 'keith1.py']
+2019-07-16 16:23:37,861 test/message 0 keith2
+2019-07-16 16:23:37,863 Running t=test/message: ['/home/pi/Documents', 'python', 'keith1.py']
+2019-07-16 16:31:18,886 Starting
+2019-07-16 16:31:18,887 DEBUG MODE
+2019-07-16 16:31:18,893 Connected to MQTT broker, subscribing to topics...
+2019-07-16 16:31:31,940 test/message 0 keith2
+2019-07-16 16:31:31,943 Running t=test/message: ['/home/pi/Documents', '/usr/bin/python', 'keith1.py']
+2019-07-16 16:34:12,345 test/message 0 keith2
+2019-07-16 16:34:12,346 Running t=test/message: ['/home/pi/Documents', '/usr/bin/python', 'keith1.py']
+2019-07-16 16:34:29,534 Starting
+2019-07-16 16:34:29,534 DEBUG MODE
+2019-07-16 16:34:29,540 Connected to MQTT broker, subscribing to topics...
+2019-07-16 16:34:32,985 test/message 0 keith2
+2019-07-16 16:34:32,988 Running t=test/message: ['/home/pi/Documents', '/usr/bin/python', 'keith1.py']
+2019-07-16 16:36:29,911 Starting
+2019-07-16 16:36:29,912 DEBUG MODE
+2019-07-16 16:36:29,918 Connected to MQTT broker, subscribing to topics...
+2019-07-16 16:37:02,347 test/message 0 1
+2019-07-16 16:37:02,350 No matching param (1) for test/message
+2019-07-16 16:37:18,519 test/message 0 keith2
+2019-07-16 16:37:18,521 Running t=test/message: ['/home/pi/Documents', '/usr/bin/python', 'keith1.py']
+2019-07-16 16:40:43,964 Starting
+2019-07-16 16:40:43,965 DEBUG MODE
+2019-07-16 16:40:43,970 Connected to MQTT broker, subscribing to topics...
+2019-07-16 16:40:52,081 test/message 0 keith3
+2019-07-16 16:40:52,083 No matching param (keith3) for test/message
+2019-07-16 16:41:57,727 Starting
+2019-07-16 16:41:57,728 DEBUG MODE
+2019-07-16 16:41:57,734 Connected to MQTT broker, subscribing to topics...
+2019-07-16 16:42:03,352 test/message 0 keith3
+2019-07-16 16:42:03,354 No matching param (keith3) for test/message
+2019-07-16 16:42:08,476 test/message 0 keith2
+2019-07-16 16:42:08,477 Running t=test/message: ['/home/pi/Documents', '/usr/bin/python', 'keith1.py']
+2019-07-16 16:48:22,500 Starting
+2019-07-16 16:48:22,500 DEBUG MODE
+2019-07-16 16:48:22,506 Connected to MQTT broker, subscribing to topics...
+2019-07-16 16:48:34,564 test/message 0 hi
+2019-07-16 16:48:34,567 Running t=test/message: ['/home/pi/Documents', '/usr/bin/python', 'hi.py']
+2019-07-17 09:24:04,720 Starting
+2019-07-17 09:24:04,721 DEBUG MODE
+2019-07-17 09:24:04,731 Connected to MQTT broker, subscribing to topics...
+2019-07-17 09:24:11,451 test/message 0 keith3
+2019-07-17 09:24:11,455 No matching param (keith3) for test/message
+2019-07-17 09:24:52,771 test/message 0 hi
+2019-07-17 09:24:52,772 Running t=test/message: ['/home/pi/Documents', '/usr/bin/python', 'hi.py']
+2019-07-17 09:29:54,295 Starting
+2019-07-17 09:29:54,297 DEBUG MODE
+2019-07-17 09:29:54,302 Connected to MQTT broker, subscribing to topics...
+2019-07-17 09:30:21,007 test/message 0 hi
+2019-07-17 09:30:21,010 Running t=test/message: ['/home/pi/Documents', '/usr/bin/python', 'hi.py']
+2019-07-17 09:30:24,073 test/message 0 hi
+2019-07-17 09:30:24,074 Running t=test/message: ['/home/pi/Documents', '/usr/bin/python', 'hi.py']
+2019-07-17 09:30:24,579 test/message 0 hi
+2019-07-17 09:30:24,580 Running t=test/message: ['/home/pi/Documents', '/usr/bin/python', 'hi.py']
+2019-07-17 09:30:33,911 test/message 0 keith3
+2019-07-17 09:30:33,912 No matching param (keith3) for test/message
+2019-07-17 09:40:46,828 Starting
+2019-07-17 09:40:46,829 DEBUG MODE
+2019-07-17 09:40:46,834 Connected to MQTT broker, subscribing to topics...
+2019-07-17 09:40:56,171 test/message 0 hi
+2019-07-17 09:40:56,173 Running t=test/message: ['/usr/bin/python', 'home/pi/Documents', 'hi.py']
+2019-07-17 09:41:00,231 test/message 0 hi
+2019-07-17 09:41:00,232 Running t=test/message: ['/usr/bin/python', 'home/pi/Documents', 'hi.py']
+2019-07-17 09:43:50,387 Starting
+2019-07-17 09:43:50,388 DEBUG MODE
+2019-07-17 09:43:50,392 Connected to MQTT broker, subscribing to topics...
+2019-07-17 09:44:11,862 test/message 0 hi
+2019-07-17 09:44:11,865 Running t=test/message: ['python', 'home/pi/Documents', 'hi.py']
+2019-07-17 09:57:32,643 Starting
+2019-07-17 09:57:32,644 DEBUG MODE
+2019-07-17 09:57:32,649 Connected to MQTT broker, subscribing to topics...
+2019-07-17 09:57:41,040 test/message 0 hi
+2019-07-17 09:57:41,043 Running t=test/message: ['python', 'home/pi/Documents/hi.py']
+2019-07-17 09:57:43,562 test/message 0 hi
+2019-07-17 09:57:43,563 Running t=test/message: ['python', 'home/pi/Documents/hi.py']
+2019-07-17 10:14:09,608 Starting
+2019-07-17 10:14:09,610 DEBUG MODE
+2019-07-17 10:14:09,614 Connected to MQTT broker, subscribing to topics...
+2019-07-17 10:14:19,622 test/message 0 h
+2019-07-17 10:14:19,624 Running t=test/message: ['usr/bin/python', 'home/pi/Documents/hi.py']
+2019-07-17 10:14:24,544 test/message 0 h
+2019-07-17 10:14:24,545 Running t=test/message: ['usr/bin/python', 'home/pi/Documents/hi.py']
+2019-07-17 10:14:25,318 test/message 0 h
+2019-07-17 10:14:25,319 Running t=test/message: ['usr/bin/python', 'home/pi/Documents/hi.py']
+2019-07-17 10:41:28,488 Starting
+2019-07-17 10:41:28,489 DEBUG MODE
+2019-07-17 10:41:28,494 Connected to MQTT broker, subscribing to topics...
+2019-07-17 10:41:37,401 test/message 0 h
+2019-07-17 10:41:37,404 Running t=test/message: ['usr/bin/python', 'home/pi/Documents/hi.py']
+2019-07-17 10:43:56,709 Starting
+2019-07-17 10:43:56,710 DEBUG MODE
+2019-07-17 10:43:56,715 Connected to MQTT broker, subscribing to topics...
+2019-07-17 10:44:01,510 test/message 0 h
+2019-07-17 10:44:01,512 Running t=test/message: ['sudo', 'usr/bin/python', 'home/pi/Documents/hi.py']
+2019-07-17 10:53:22,781 Starting
+2019-07-17 10:53:22,782 DEBUG MODE
+2019-07-17 10:53:22,787 Connected to MQTT broker, subscribing to topics...
+2019-07-17 10:53:29,997 test/message 0 h
+2019-07-17 10:53:29,999 Running t=test/message: ['sudo', 'usr/bin/python', 'home/pi/Documents/hi.py']
+2019-07-17 10:54:13,306 Starting
+2019-07-17 10:54:13,307 DEBUG MODE
+2019-07-17 10:54:13,311 Connected to MQTT broker, subscribing to topics...
+2019-07-17 10:54:21,177 test/message 0 h
+2019-07-17 10:54:21,179 Running t=test/message: ['usr/bin/python', 'home/pi/Documents/hi.py']
+2019-07-17 10:54:25,807 test/message 0 h
+2019-07-17 10:54:25,808 Running t=test/message: ['usr/bin/python', 'home/pi/Documents/hi.py']
+2019-07-17 10:58:52,479 Starting
+2019-07-17 10:58:52,480 DEBUG MODE
+2019-07-17 10:58:52,485 Connected to MQTT broker, subscribing to topics...
+2019-07-17 10:59:32,010 test/message 0 h
+2019-07-17 10:59:32,012 Running t=test/message: ['usr/bin/python', 'home/pi/Documents/hi.py']
+2019-07-17 11:09:20,583 Starting
+2019-07-17 11:09:20,584 DEBUG MODE
+2019-07-17 11:09:20,589 Connected to MQTT broker, subscribing to topics...
+2019-07-17 11:09:26,220 test/message 0 h
+2019-07-17 11:09:26,222 Running t=test/message: ['usr/bin/python', 'home/pi/Documents/hi.py']
+2019-07-17 11:25:44,651 test/message 0 1
+2019-07-17 11:25:44,652 No matching param (1) for test/message
+2019-07-17 11:25:48,224 test/message 0 0
+2019-07-17 11:25:48,225 No matching param (0) for test/message
