@@ -1,5 +1,15 @@
 # RaspberryPiKeithleyCommunication
 
+## Overall Scheme: 
+* Host an MQTT server, using a Raspberry Pi as a topic broker
+* Load a .py control script on the Rpi
+* Start the Rpi as a subscriber to an MQTT topic of your choice
+* edit the MQTT launcher conf file, connecting a message/topic pair to the respective a commandline command
+* Run the Keithley control script remotely by publishing an appropriate payload & message on the MQTT topic 
+
+I know what you're thinking. Why'd we board a plane to travel to the corner deli? For lack of a better excuse, because I felt like it and sometimes I prefer the coffee & pancakes in JB's Terminal 5 over my local delicatessen. 
+
+
 Notes:
 To publish to the mosquitto server: 
 
