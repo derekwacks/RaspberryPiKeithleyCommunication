@@ -26,6 +26,8 @@ Subscribe remotely:
 `mosquitto_sub -h raspberryPiIP  -t "test/message"` 
 (https://appcodelabs.com/introduction-to-iot-build-an-mqtt-server-using-raspberry-pi)
 
+* install the Mqtt-launcher
+* run  mqtt-launcher.py before publishing a payload locally or remotely
 
 ### Example script: 
 Gets the Keithley to beep as a test 
