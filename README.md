@@ -4,7 +4,7 @@
 * Host an MQTT server, using a Raspberry Pi as a topic broker
 * Load a .py control script on the Rpi
 * Start the Rpi as a subscriber to an MQTT topic of your choice
-* edit the MQTT launcher conf file, connecting a message/topic pair to the respective command (for example: `user/bin/python` & `~/home/Documents/myKeithleyControl.py`)
+* edit the MQTT launcher conf file, connecting a message/topic pair to the respective command (for example, connecting `user/bin/python` & `~/home/Documents/myKeithleyControl.py` to your friendly neighborhood `test/message` topic thread)
 * Run the Keithley control script remotely by publishing an appropriate message payload on the MQTT topic 
 
 I connected the Rpi to the Keithley using a USB-RS232 UART adapter
