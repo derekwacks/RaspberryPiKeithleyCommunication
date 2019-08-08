@@ -1,4 +1,4 @@
-# RaspberryPiKeithleyCommunication
+# Raspberry Pi & Keithley Communication using an MQTT server
 
 ## Overall Scheme: 
 * Host an MQTT server, using a Raspberry Pi as a topic broker
