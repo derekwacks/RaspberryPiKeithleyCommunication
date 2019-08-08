@@ -10,16 +10,18 @@
 You can even run your Keithley control lines one-by-one _as_ the payload 
  
 I know what you're thinking. Why'd we board a plane to travel to the corner deli? For lack of a better excuse, because I felt like it and sometimes I prefer the coffee & pancakes in Jet Blue's T5 over my local delicatessen anyways. 
+#### The nitty-gritty (notes)
+install the mosquitto MQTT broker with `sudo apt install mosquitto mosquitto-clients`
+enable with `sudo systemctl enable mosquitto`
+install the MQTT client (on your other machine) with `sudo apt install mosquitto-clients`
 
-
-#### Notes:
 To publish to the mosquitto server: 
 
-`mosquitto_pub -h raspberrypi_or_IP -t "test/message" -m "myControl"`
+`mosquitto_pub -h IP_or_hostname_or_localhost -t "test/message" -m "payload_or_name_like_myControl_here"`
 
 Subscribe remotely:
 
-`mosquitto_sub -h myIP  -t "test/message"` 
+`mosquitto_sub -h raspberryPiIP  -t "test/message"` 
 (https://appcodelabs.com/introduction-to-iot-build-an-mqtt-server-using-raspberry-pi)
 
 
