@@ -65,7 +65,7 @@ __________________________________________________________________
 From a laptop or Rpi...
 * plug in Keithley & check path (ex: /dev/ttyUSB0 )
 * run nodefowarder with `(sudo) node nodefowarder.js 9000 /dev/ttyUSB0 9600 10000` 
-where 9000 is the port numbner, /dev/ttyUSB0 is the path, 9600 is the baud rate (set in Keithley's settings), and 10000 is the buffer (10k gives ample time). 
+where 9000 is the port number, /dev/ttyUSB0 is the path, 9600 is the baud rate (set in Keithley's settings), and 10000 is the buffer (10k gives ample time). 
 * go to localhost:9000 or IP address
 * send `FORM:DATA:ASCII` to format Keithley
 * test with `:SYS:BEEP 100,3`
