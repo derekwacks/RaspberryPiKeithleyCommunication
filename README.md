@@ -77,7 +77,7 @@ The commands run more quickly if shortened to a minimum and written in  all CAPS
 
 * At the time of writing this, the Keithley 2401 user's manual is available at http://research.physics.illinois.edu/bezryadin/labprotocol/Keithley2400Manual.pdf. It's also in this repo
 
-* See Section 18 for commands & syntax 
+* See Section 18 for commands & syntax. In general, pyVisa-py .write() commands send commands while .query() let you read back data
 
 Get the full nodeforwarder shindig at https://github.com/dansteingart/nodeforwarder
 
