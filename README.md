@@ -72,13 +72,14 @@ where 9000 is the port number, /dev/ttyUSB0 is the path, 9600 is the baud rate (
 The commands run more quickly if shortened to a minimum and written in  all CAPS (:system:beeper 100,3 --> :SYST:BEEP 100,3)
 
 #### The nitty-gritty (notes)
-With the keithley set to RS232 mode, controls should flow through 
+* With the keithley set to RS232 mode, controls should flow through 
 
-At the time of writing this, the Keithley 2401 user's manual is available at http://research.physics.illinois.edu/bezryadin/labprotocol/Keithley2400Manual.pdf
+* At the time of writing this, the Keithley 2401 user's manual is available at http://research.physics.illinois.edu/bezryadin/labprotocol/Keithley2400Manual.pdf
 
-See Section 18 for commands & syntax 
+* See Section 18 for commands & syntax 
 
 Get the full nodeforwarder shindig at https://github.com/dansteingart/nodeforwarder
+
 ### Credits:
 Dan Steingart for his slick & sleek nodefowarder, and his Keithley, and his Rpi's, and his lab space, and countless other things
 
