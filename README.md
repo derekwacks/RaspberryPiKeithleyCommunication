@@ -81,5 +81,4 @@ The commands run more quickly if shortened to a minimum and written in  all CAPS
 Get the full nodeforwarder shindig at https://github.com/dansteingart/nodeforwarder
 
 ### Credits:
-Dan Steingart for his slick & sleek nodefowarder, and his Keithley, and his Rpi's, and his lab space, and countless other things
-
+Thank you to Dan Steingart for his slick & sleek nodefowarder, and his Keithley, and his Rpi's, and his lab space, and everything else
