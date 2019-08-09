@@ -32,7 +32,7 @@ Subscribe remotely:
 * run  mqtt-launcher.py before publishing a payload locally or remotely
 
 ### Example script: 
-Gets the Keithley to beep as a test using VISA & its python wrapper pyVisa
+Gets the Keithley to beep as a test using pyVisa-py (built off VISA & its python wrapper pyVisa) 
 
 ```
 import visa 
