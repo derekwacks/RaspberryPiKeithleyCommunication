@@ -67,8 +67,9 @@ From a laptop or Rpi...
 * run nodefowarder with `(sudo) node nodefowarder.js 9000 /dev/ttyUSB0 9600 10000` 
 where 9000 is the port number, /dev/ttyUSB0 is the path, 9600 is the baud rate (set in Keithley's settings), and 10000 is the buffer (10k gives ample time). 
 * go to localhost:9000 or IP address
-* send `FORM:DATA:ASCII` to format Keithley
-* test with `:SYS:BEEP 100,3`
+* send `FORM:DATA ASCII` to format Keithley
+* test with `:SYST:BEEP 100,3`
+The commands run more quickly if shortened to a minimum and written in  all CAPS (:system:beeper 100,3 --> :SYST:BEEP 100,3)
 
 #### The nitty-gritty (notes)
 With the keithley set to RS232 mode, controls should flow through 
