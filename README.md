@@ -73,6 +73,7 @@ where 9000 is the port number, /dev/ttyUSB0 is the path, 9600 is the baud rate (
 #### The nitty-gritty (notes)
 With the keithley set to RS232 mode, controls should flow through 
 
-
-
+Get the full nodeforwarder shindig at https://github.com/dansteingart/nodeforwarder
+### Credits:
+Dan Steingart for his slick & sleek nodefowarder, and his Keithley, and his Rpi's, and his lab space, and countless other things
 
