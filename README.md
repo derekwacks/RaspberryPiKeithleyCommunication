@@ -75,7 +75,7 @@ The commands run more quickly if shortened to a minimum and written in  all CAPS
 #### The nitty-gritty (notes)
 * With the keithley set to RS232 mode, controls should flow through 
 
-* At the time of writing this, the Keithley 2401 user's manual is available at http://research.physics.illinois.edu/bezryadin/labprotocol/Keithley2400Manual.pdf
+* At the time of writing this, the Keithley 2401 user's manual is available at http://research.physics.illinois.edu/bezryadin/labprotocol/Keithley2400Manual.pdf. It's also in this repo
 
 * See Section 18 for commands & syntax 
 
